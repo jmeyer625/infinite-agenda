@@ -1,0 +1,162 @@
+.header {
+	background-color: #F79C25;
+	color: white;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 90px;
+	width: 100%;
+	padding: 20px 0 0 20px;
+	font-family: 'Ubuntu', Helvetica, sans-serif;
+	box-shadow: 0 5px 5px 0 gray;	
+}
+
+#calendarToggle {
+	font-size: 20px;
+	display: block;
+	border-radius: 5px;
+	background-color: #797FF7;
+	color: white;
+	border: 1px solid #797FF7;
+	font-family: Helvetica;
+}
+
+.container {
+	max-width: 1000px;
+	margin-top: 150px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.time-slot {
+	border: 1px solid #F79C25;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	padding-left: 30px;
+	color: #F79C25;
+	border-radius: 10px;
+	margin-top: 20px;
+	vertical-align: middle;
+	min-height: 50px;
+}
+
+.week{
+	margin: 0;
+	padding: 30px 40px;
+}
+
+.day {
+	color: #797FF7;
+	margin-top: 20px;
+	font-size: 60px;
+	font-family: Helvetica, sans-serif;
+	padding-right: 20px;
+}
+
+.agenda-item {
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	font-size: 16px;
+	width: 300px;
+}
+
+.time {
+	width: 250px;
+	margin: 0;
+	position: relative;
+	top: 15px;
+}
+
+.times {
+	display: none;
+}
+
+.day-task-list {
+	display: inline-block;
+	margin-left: 30px;
+	list-style-type: disc;
+}
+
+.agenda-div * {
+	display: inline-block;
+}
+
+.delete-item {
+	border: none;
+	font-size: 12px;
+	color: #F79C25;
+	background-color: white;
+}
+
+.delete-item:hover {
+	color: #797FF7;
+}
+
+.edit-form {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	padding-left: 30px;
+	color: #F79C25;
+	border-radius: 10px;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+.edit-form > * {
+	margin-right: 20px;
+	border: 1px solid #F79C25;
+	background-color: white;
+}
+
+#editor {
+	font-size: 12px;
+}
+
+#cancel, #submit {
+	border-radius: 5px;
+}
+
+#cancel:hover,#submit:hover{
+	background-color: #F79C25;
+	color: white;
+}
+
+select:hover,.day:hover,.calendar-day:hover{
+	cursor: pointer;
+}
+
+.calendar-item {
+	font-size: 30px;
+	display: inline-block;
+	width: 290px;
+	border: 1px solid #797FF7;
+	border-radius: 7px;
+	margin: 0 10px 10px 0;
+	vertical-align: top;
+}
+
+.calendar-item .day {
+	font-size: 24px;
+	color: #797FF7;
+	text-align: center;
+}
+
+.calendar-item .times {
+	padding: 7px;
+}
+
+.calendar-item .time-slot {
+	margin: auto;
+	font-size: 16px;
+	border: 1px solid #F79C25;
+	width: 240px;
+}
+
+.calendar-item .agenda-item {
+	font-size: 16px;
+	border: none;
+}
+

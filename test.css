@@ -1,0 +1,42 @@
+.month-div {
+	width: ;
+}
+
+ul, li {
+	list-style-type: none;
+	padding: 0;
+	margin: none;
+}
+
+.month-title {
+	width: 1000px;
+	text-align: center;
+}
+.month {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 1000px;
+}
+.day-headers th {
+	border: 1px solid black;
+}
+
+
+.week td{
+ 	border: 1px solid black;
+ 	vertical-align: top;
+}
+
+.week div {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.times {
+	border: 1px solid blue;
+}
+
+.time-slot {
+	border: 1px solid red;
+	margin: 10px;
+}
